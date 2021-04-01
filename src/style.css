@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-class{
+    background-image: url(https://mocah.org/thumbs/5373519-tablet-ipad-apple-pencil-note-sketching-hand-tech-write-black-and-white-screen-glow-watch-apple-scribe-pro-free-images.jpg);
+    background-size: cover;
+    height: 560px;
+}
+.logo img{
+    margin-left: 80px;
+    width: 130px;
+    float: left;
+    margin-top: 40px;
+}
+.navbar {
+    float: right;
+    margin-right: 200px;
+    margin-top: 48px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    display: inline;
+}
+.navbar a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+
+}
+.navbar a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.navbar a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+.contact span {
+    border: 2px solid #fff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    margin: -7px -131px 0px 15px;
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+.text1{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 160px;
+    text-align: center;
+}
+.txt1{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+.txt2{
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+.text2{
+    margin-left: 110px;
+    margin-top: 120px;
+    float: left;
+}
+.txt3{
+    font-size: 38px;
+    font-family: 'Rubik', sans-serif;
+    width: 360px;
+}
+.txt4{
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.txt5{
+    font-size: 25px;
+    margin-top: 12px;
+    color: #686868;
+    font-family: 'Work Sans', sans-serif;
+}
+.txt6{
+    font-size: 25px;
+    text-decoration: none;
+    color: #FF4629;
+    margin-top: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+.txt6:hover{
+    color: black;
+}
+.email{
+    float: left;
+    margin-left: 60px;
+    margin-top: 240px;
+}
+.tekst1{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.tekst2{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    width: 770px;
+}
+.tekst3{
+    margin-top: 20px;
+    color: #6E7C8B;
+}
+.input{
+    width: 500px;
+    height: 30px;
+    margin-top: 4px;
+}
+.input1{
+    width: 500px;
+    height: 40px;
+    margin-top: 4px;
+}
+.checkbox{
+    position: absolute;
+    margin-top: 64px;
+    margin-left: -490px;
+}
+.tekst4{
+    margin-left: 34px;
+    margin-top: 15px;
+    color: #6E7C8B;
+}
+.button{
+    width: 170px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #FF7A59;
+    color: #fff;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+}
+.pic{
+    position: absolute;
+    width: 40px;
+    margin-top: 80px;
+    margin-left: -176px;
+}
+.tekst5{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 44px;
+    color: #6E7C8B;
+}
+.tekst6{
+    text-decoration: none;
+    color: #23B0C6;
+}
+.tekst6:hover{
+    text-decoration:underline;
+}
+.map iframe{
+    margin-top: 140px;
+}
+.center-text{
+    position: absolute;
+    margin-top: 80px;
+}
+.tekst7{
+    font-size: 40px;
+    margin-left: 320px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.tekst8{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 340px;
+    color: #6E7C8B;
+    margin-top: 8px;
+}
+.tekst9{
+    font-size: 40px;
+    margin-left: 260px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 100px;
+}
+.tekst10{
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #6E7C8B;
+    width: 780px;
+}
+.link{
+    text-decoration: none;
+    color: #FF4629;
+}
+.link:hover{
+    color: #6E7C8B;
+}
+.text-class{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 390px;
+    color: #6E7C8B;
+}
+.text-cont{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 700px;
+    margin-left: 510px;
+    font-family: 'Rubik', sans-serif;
+}
+.text-cont1{
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 340px;
+    font-size: 20px;
+    color: #6E7C8B;
+}
+.text-cont2{
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 430px;
+    font-size: 20px;
+    color: #6E7C8B;
+}
+.social{
+    margin-top: 820px;
+    margin-left: 510px;
+    position: absolute;
+}
+.footer{
+    position: absolute;
+    margin-top: 900px;  
+}
+.footer1{
+    margin-top: 920px;
+    margin-left: 430px;
+    color: #6E7C8B;
+}
+.foot-text{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+#text{
+    float: left;
+    border-right: 1px solid #6E7C8B;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid rgb(182, 172, 172);
+  }
+  .fa:hover {
+    opacity: 0.7;
+    border: 2px solid blue;
+    color: blue;
+}
+.fa-facebook {
+    background: #fff;
+    color: #777777;
+  }
+  
+  .fa-twitter {
+    background: #fff;
+    color: #777777;
+  }
+  
+  .fa-google {
+    background: #fff;
+    color: #777777;
+  }
+  
+  .fa-linkedin {
+    background: #fff;
+    color: #777777;
+  }
+  .footer1 a{
+      color: #6E7C8B;
+  }
+
+
+
+
+@media only screen and (max-width: 400px) {
+    *{
+        padding: 0;
+        margin: 0;
+}
+.main-class{
+    background-image: url(https://mocah.org/thumbs/5373519-tablet-ipad-apple-pencil-note-sketching-hand-tech-write-black-and-white-screen-glow-watch-apple-scribe-pro-free-images.jpg);
+    background-size: 100% 300px;
+    margin-top: 50px;
+    /* height: 500px; */
+    background-repeat: no-repeat;
+}
+.logo img{
+    margin-left: 20px;
+    width: 80px;
+    float: left;
+    margin-top: -40px;
+    background-color: #000000;
+}
+    .navbar{
+    display: none;
+}
+
+.text1{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    text-align: center;
+}
+.txt1{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+.txt2{
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+.text2{
+    margin-left: 110px;
+    margin-top: 120px;
+    float: left;
+}
+.txt3{
+    font-size: 38px;
+    font-family: 'Rubik', sans-serif;
+    width: 360px;
+}
+.txt4{
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.txt5{
+    font-size: 25px;
+    margin-top: 12px;
+    color: #686868;
+    font-family: 'Work Sans', sans-serif;
+}
+.txt6{
+    font-size: 25px;
+    text-decoration: none;
+    color: #FF4629;
+    margin-top: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+.txt6:hover{
+    color: black;
+}
+.email{
+    float: left;
+    margin-left: 60px;
+    margin-top: 240px;
+}
+.tekst1{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.tekst2{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    width: 770px;
+}
+.tekst3{
+    margin-top: 20px;
+    color: #6E7C8B;
+}
+.input{
+    width: 500px;
+    height: 30px;
+    margin-top: 4px;
+}
+.input1{
+    width: 500px;
+    height: 40px;
+    margin-top: 4px;
+}
+.checkbox{
+    position: absolute;
+    margin-top: 64px;
+    margin-left: -490px;
+}
+.tekst4{
+    margin-left: 34px;
+    margin-top: 15px;
+    color: #6E7C8B;
+}
+.button{
+    width: 170px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #FF7A59;
+    color: #fff;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+}
+.pic{
+    position: absolute;
+    width: 40px;
+    margin-top: 80px;
+    margin-left: -176px;
+}
+.tekst5{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 44px;
+    color: #6E7C8B;
+}
+.tekst6{
+    text-decoration: none;
+    color: #23B0C6;
+}
+.tekst6:hover{
+    text-decoration:underline;
+}
+.map iframe{
+    margin-top: 140px;
+    width: 100%;
+}
+.center-text{
+    position: absolute;
+    margin-top: 80px;
+}
+.tekst7{
+    font-size: 40px;
+    margin-left: 320px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+.tekst8{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 340px;
+    color: #6E7C8B;
+    margin-top: 8px;
+}
+.tekst9{
+    font-size: 40px;
+    margin-left: 260px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 100px;
+}
+.tekst10{
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #6E7C8B;
+    width: 780px;
+}
+.link{
+    text-decoration: none;
+    color: #FF4629;
+}
+.link:hover{
+    color: #6E7C8B;
+}
+.text-class{
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 390px;
+    color: #6E7C8B;
+}
+.text-cont{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 700px;
+    margin-left: 510px;
+    font-family: 'Rubik', sans-serif;
+}
+.text-cont1{
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 340px;
+    font-size: 20px;
+    color: #6E7C8B;
+}
+.text-cont2{
+    position: absolute;
+    margin-top: 790px;
+    margin-left: 430px;
+    font-size: 20px;
+    color: #6E7C8B;
+}
+.social{
+    margin-top: 820px;
+    margin-left: 510px;
+    position: absolute;
+}
+.footer{
+    position: absolute;
+    margin-top: 900px;  
+}
+.footer1{
+    margin-top: 920px;
+    margin-left: 430px;
+    color: #6E7C8B;
+}
+.foot-text{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+#text{
+    float: left;
+    border-right: 1px solid #6E7C8B;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid rgb(182, 172, 172);
+  }
+  .fa:hover {
+    opacity: 0.7;
+    border: 2px solid blue;
+    color: blue;
+}
+.fa-facebook {
+    background: #fff;
+    color: #777777;
+  }
+  
+  .fa-twitter {
+    background: #fff;
+    color: #777777;
+  }
+  
+  .fa-google {
+    background: #fff;
+    color: #777777;
+  }
+  
+  .fa-linkedin {
+    background: #fff;
+    color: #777777;
+  }
+  .footer1 a{
+      color: #6E7C8B;
+  }
+
+
+
+}

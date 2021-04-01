@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    margin-left: 80px;
+    width: 150px;
+    float: left;
+    margin-top: 40px;
+}
+.navbar {
+    float: right;
+    margin-right: 200px;
+    margin-top: 48px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    display: inline;
+}
+.navbar a{
+    float: left;
+    color: black;
+    /* overflow: auto; */
+    text-decoration: none;
+    padding-left: 30px;
+}
+.navbar a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    background: red;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.navbar a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+.contact span {
+    border: 2px solid black;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    margin: -7px -131px 0px 15px;
+    float: right;
+    color: black;
+    /* overflow: auto; */
+    text-decoration: none;
+    /* padding-left: 30px; */
+}
+.main {
+    position: absolute;
+    margin-top: 190px;
+}
+#id1{
+    font-size: 65px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444444;
+    padding-bottom: 40px;
+    margin-left: 540px;
+}
+#id2{
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 424px;
+}
+.card{
+    width: 365px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px 0px rgb(137, 181, 196);
+    margin-left: 70px;
+    float: left;
+    overflow: hidden;
+}
+.cardimg {
+    width: 365px;
+    height: 220px;
+}
+.card img{
+    width: 100%;
+    height: 220px;
+}
+#text{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 10px 0 15px;
+    text-decoration: none;
+    color: #FF4629;
+}
+#text1{
+    display: inline-block;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 10px 0 15px;
+    text-decoration: none;
+    color: #FF4629;
+    margin-left: 130px;
+}
+#text2{
+    width: 300px;
+    font-size: 27px;
+    padding: 20px 10px 0 15px;
+}
+.card img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card img:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+    width: cover;
+}
